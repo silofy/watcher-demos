@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>owlsh demos have moved</title>
+<link rel="canonical" href="https://silofy.github.io/owlsh-demos/">
+<meta name="robots" content="noindex">
+<script>
+  // watcher-demos → owlsh-demos: keep the path below the old base, the ?demo= query and any #hash
+  (function () {
+    var rest = location.pathname.replace(/^\/watcher-demos/, "");
+    location.replace("https://silofy.github.io/owlsh-demos" + (rest || "/") + location.search + location.hash);
+  })();
+</script>
+</head>
+<body style="font:16px system-ui;padding:40px">
+<p>The Watcher is now <b>owlsh</b>. The demos moved to
+<a href="https://silofy.github.io/owlsh-demos/">silofy.github.io/owlsh-demos</a>.</p>
+<noscript><meta http-equiv="refresh" content="0; url=https://silofy.github.io/owlsh-demos/"></noscript>
+</body>
+</html>
